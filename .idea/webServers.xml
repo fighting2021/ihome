@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9fd5c5e8-69be-4cf3-b087-998b17dceb42" name="租房网项目" url="http://192.168.31.20">
+        <fileTransfer host="192.168.31.20" port="22" rootFolder="/home/zhongliwen/go/src/sss" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
