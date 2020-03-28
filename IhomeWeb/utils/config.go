@@ -21,7 +21,7 @@ var (
 
 func InitConfig() {
 	//从配置文件读取配置信息
-	appconf, err := config.NewConfig("ini", "/home/zhongliwen/go/src/sss/IhomeWeb/conf/app.conf")
+	appconf, err := config.NewConfig("ini", "./conf/app.conf")
 	if err != nil {
 		log.Fatal(err)
 		return
@@ -35,8 +35,8 @@ func InitConfig() {
 	G_mysql_addr = appconf.String("mysqladdr")
 	G_mysql_port = appconf.String("mysqlport")
 	G_mysql_dbname = appconf.String("mysqldbname")
-	//G_fastdfs_port  = appconf.String("fastdfsport")
-	//G_fastdfs_addr = appconf.String("fastdfsaddr")
+	G_fastdfs_port  = appconf.String("fastdfsport")
+	G_fastdfs_addr = appconf.String("fastdfsaddr")
 	return
 }
 

@@ -4,6 +4,7 @@ import (
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/micro/go-log"
+	"github.com/weilaihui/fdfs_client"
 	"sss/IhomeWeb/utils"
 	"time"
 )
@@ -86,17 +87,20 @@ func (this *House) To_one_house_desc() interface{} {
 		"min_days": this.Min_days,
 		"max_days": this.Max_days,
 	}
+
 	//房屋图片
 	img_urls := []string{}
 	for _, img_url := range this.Images {
 		img_urls = append(img_urls, utils.AddDomain2Url(img_url.Url))
 	}
+
 	house_desc["img_urls"] = img_urls
 	//房屋设施
 	facilities := []int{}
 	for _, facility := range this.Facilities {
 		facilities = append(facilities, facility.Id)
 	}
+
 	house_desc["facilities"] = facilities
 	//评论信息
 	comments := []interface{}{}
@@ -104,8 +108,9 @@ func (this *House) To_one_house_desc() interface{} {
 	o := orm.NewOrm()
 	order_num, err := o.QueryTable("order_house").Filter("house__id", this.Id).Filter("status", ORDER_STATUS_COMPLETE).OrderBy("-ctime").Limit(10).All(&orders)
 	if err != nil {
-		log.Fatal("select orders comments error, err =", err, "house id = ", this.Id)
+		log.Log("select orders comments error, err =", err, ", house id = ", this.Id)
 	}
+
 	for i := 0; i < int(order_num); i++ {
 		o.LoadRelated(&orders[i], "User")
 		var username string
@@ -190,6 +195,34 @@ func (this *OrderHouse) To_order_info() interface{} {
 	}
 	return order_info
 }
+
+// 上传文件
+// 参数1：上传文件数据
+// 参数2：上传文件的扩展名
+func UploadByBuffer(fileBuffer []byte, ext string) (GroupName, RemoteFileId string, e error ) {
+	// 创建句柄，连接fastdfs服务器
+	client, err := fdfs_client.NewFdfsClient("./conf/client.conf")
+	if err !=nil{
+		log.Log("UploadByBuffer( ) fdfs_client.NewFdfsClient err", err)
+		GroupName = ""
+		RemoteFileId = ""
+		e = err
+		return
+	}
+
+	// 上传数据
+	resp, err := client.UploadByBuffer(fileBuffer, ext)
+	if err != nil {
+		log.Log("UploadByBuffer( ) fdfs_client.UploadByBuffer err", err)
+		GroupName = ""
+		RemoteFileId = ""
+		e = err
+		return
+	}
+	log.Log("上传成功，GroupName = ", resp.GroupName, ", RemoteFileId = ", resp.RemoteFileId)
+	return resp.GroupName, resp.RemoteFileId, nil
+}
+
 
 func init() {
 	// 注册mysql的驱动

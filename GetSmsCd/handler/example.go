@@ -34,8 +34,8 @@ func (e *Example) GetSmsCd(ctx context.Context, req *example.Request, rsp *examp
 	user := models.User{ Mobile: req.Mobile }
 	err := o.Read(&user)
 	if err == nil{
-		log.Log("手机号码" + req.Mobile + "已经存在!")
-		rsp.Errno = utils.RECODE_DBERR
+		log.Log("手机号码" + req.Mobile + "已经被使用!")
+		rsp.Errno = utils.MOBILE_EXISTS
 		rsp.Errmsg = utils.RecodeText(rsp.Errno)
 		return nil
 	}
@@ -82,8 +82,10 @@ func (e *Example) GetSmsCd(ctx context.Context, req *example.Request, rsp *examp
 	msg := sms.NewMSG2()
 	sendContent := "您的手机验证码为：" + strconv.Itoa(vercode)
 	data := []string{sendContent, "1"}
-	_, err = msg.SendMsg(data,"13622298413")
+	log.Log("准备发送短信验证码...")
+	_, err = msg.SendMsg(data, user.Mobile)
 	if err != nil {
+		log.Log("短信验证码发送失败：", err)
 		rsp.Errno = utils.RECODE_SMSERR
 		rsp.Errmsg = utils.RecodeText(rsp.Errno)
 		return nil

@@ -20,6 +20,9 @@ const (
 	RECODE_SERVERERR  = "4500"
 	RECODE_UNKNOWERR  = "4501"
 	RECODE_INCOREECT      = "5001"
+	RECODE_USER_EXISTS      = "5002"
+	DATA_TOO_LONG      = "5003"
+	MOBILE_EXISTS      = "5004"
 )
 
 var recodeText = map[string]string{
@@ -42,6 +45,9 @@ var recodeText = map[string]string{
 	RECODE_UNKNOWERR:  "未知错误",
 	RECODE_SMSERR:     "短信失败",
 	RECODE_INCOREECT: "验证码不正确",
+	RECODE_USER_EXISTS: "用户已存在",
+	DATA_TOO_LONG: "上传文件太大，不能超过4Mb",
+	MOBILE_EXISTS: "手机号码已经被使用",
 }
 
 func RecodeText(code string) string {

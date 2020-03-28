@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83699c95-1b30-4230-a838-b1039ff58d43" name="Default Changelist" comment="" />
+    <list default="true" id="83699c95-1b30-4230-a838-b1039ff58d43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DelSession/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DelSession/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DelSession/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetArea/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetArea/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetArea/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetHouseInfo/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetHouseInfo/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetHouseInfo/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetHouses/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetHouses/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetHouses/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetImageCd/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetImageCd/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetImageCd/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetIndex/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetIndex/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetIndex/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetSession/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetSession/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetSession/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetSmsCd/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetSmsCd/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetSmsCd/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserAuth/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserAuth/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserAuth/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserHouse/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserHouse/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserHouse/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserInfo/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserInfo/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserInfo/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserOrder/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserOrder/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GetUserOrder/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IhomeWeb/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostAvatar/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostAvatar/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostAvatar/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostHouse/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostHouse/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostHouse/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostHousesImage/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostHousesImage/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostHousesImage/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostLogin/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostLogin/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostLogin/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostOrders/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostOrders/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostOrders/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostRet/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostRet/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostRet/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostUserAuth/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostUserAuth/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PostUserAuth/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutComment/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutComment/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutComment/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutOrders/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutOrders/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutOrders/conf/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutUserInfo/conf/app.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutUserInfo/conf/client.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PutUserInfo/conf/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetArea/handler/example.go" beforeDir="false" afterPath="$PROJECT_DIR$/GetArea/handler/example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetArea/proto/example/example.micro.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetArea/proto/example/example.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetArea/proto/example/example.proto" beforeDir="false" afterPath="$PROJECT_DIR$/GetArea/proto/example/example.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetSmsCd/handler/example.go" beforeDir="false" afterPath="$PROJECT_DIR$/GetSmsCd/handler/example.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetSmsCd/sms/yuntongxun.go" beforeDir="false" afterPath="$PROJECT_DIR$/GetSmsCd/sms/yuntongxun.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/conf/app.conf" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/conf/app.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/handler/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/html/css/ihome/detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/html/css/ihome/detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/html/js/ihome/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/html/js/ihome/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/html/lorders.html" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/html/lorders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/html/myhouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/html/myhouse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/models/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/utils/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/utils/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/utils/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/utils/error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IhomeWeb/utils/misc.go" beforeDir="false" afterPath="$PROJECT_DIR$/IhomeWeb/utils/misc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/start.sh" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,130 +101,63 @@
     <session id="-211726836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="conf" value="4" />
-          <entry key="css" value="1" />
-          <entry key="go" value="102" />
-          <entry key="html" value="4" />
-          <entry key="js" value="2" />
-          <entry key="md" value="1" />
-          <entry key="proto" value="19" />
+          <entry key="Dockerfile" value="1" />
+          <entry key="conf" value="53" />
+          <entry key="css" value="11" />
+          <entry key="go" value="331" />
+          <entry key="html" value="23" />
+          <entry key="js" value="14" />
+          <entry key="md" value="2" />
+          <entry key="proto" value="51" />
           <entry key="sql" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="Go" value="102" />
-          <entry key="HTML" value="4" />
-          <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="PROTO" value="19" />
+          <entry key="CSS" value="11" />
+          <entry key="Go" value="331" />
+          <entry key="HTML" value="23" />
+          <entry key="JavaScript" value="14" />
+          <entry key="PLAIN_TEXT" value="56" />
+          <entry key="PROTO" value="51" />
           <entry key="SQL" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="conf" value="63" />
-          <entry key="go" value="3532" />
-          <entry key="proto" value="502" />
+          <entry key="conf" value="111" />
+          <entry key="css" value="10" />
+          <entry key="go" value="14161" />
+          <entry key="html" value="24" />
+          <entry key="js" value="142" />
+          <entry key="proto" value="1637" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="3532" />
-          <entry key="PLAIN_TEXT" value="63" />
-          <entry key="PROTO" value="502" />
+          <entry key="CSS" value="10" />
+          <entry key="Go" value="14161" />
+          <entry key="HTML" value="24" />
+          <entry key="JavaScript" value="142" />
+          <entry key="PLAIN_TEXT" value="111" />
+          <entry key="PROTO" value="1637" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetSmsCd/proto/example/example.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IhomeWeb/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="41" />
-              <folding>
-                <element signature="e#14#207#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IhomeWeb/handler/handler.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="205" column="19" lean-forward="true" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
-              <folding>
-                <element signature="e#17#382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetSmsCd/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="e#14#170#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GetSmsCd/handler/example.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="82" column="29" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="29" />
-              <folding>
-                <element signature="e#17#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IhomeWeb/utils/error.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GetSmsCd/sms/yuntongxun.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2930">
-              <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,64 +168,103 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>    </find>
-      <find>  </find>
-      <find />
-      <find>         </find>
-      <find>Ihome</find>
-      <find>GetAre</find>
-      <find>New</find>
-      <find>NewExampleService</find>
-      <find>utils</find>
-      <find>app.conf</find>
-      <find>../</find>
-      <find>../conf/app.conf</find>
-      <find>./conf</find>
-      <find>GetArea</find>
-      <find>areas_info_value</find>
-      <find>Response_Point</find>
-      <find>commic</find>
-      <find>缓存创建失</find>
-      <find>RLYMSG</find>
-      <find>NewMSGNewMSG</find>
-      <find>switch</find>
-      <find>502</find>
-      <find>genBodyContent</find>
-      <find>GetSmsCd</find>
-      <find>data</find>
+      <find>RECODE_IOERR</find>
+      <find>redis</find>
+      <find>beego.Debug</find>
+      <find>/api/v1.0/house/index</find>
+      <find>GETHOUSES</find>
+      <find>RECODE_ROLEERR</find>
+      <find>role</find>
+      <find>spr</find>
       <find>RECODE_DBERR</find>
-      <find>send</find>
+      <find>RECODE_SMSERR</find>
+      <find>111</find>
+      <find>1111</find>
+      <find>mobile</find>
+      <find>println</find>
+      <find>Println</find>
+      <find>book-house</find>
+      <find>POSTORDERS</find>
+      <find>PUTORDERS</find>
+      <find>RECODE_DATAERR</find>
+      <find>Reaspon</find>
+      <find>Reasp</find>
+      <find>order</find>
+      <find>Action</find>
+      <find>action</find>
+      <find>PUTCOMMENT</find>
+      <find>beego.Info</find>
+      <find>fdfs</find>
+      <find>fdfs_client.NewFdfsClient</find>
+      <find>NewFdfsClient</find>
+      <find>config.NewConfig</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>log.Log</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\code\go_workspace\src\sss</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IhomeWeb/utils/misc.go" />
-        <option value="$PROJECT_DIR$/IhomeWeb/app.conf" />
-        <option value="$PROJECT_DIR$/IhomeWeb/conf/dta.sql" />
-        <option value="$PROJECT_DIR$/GetArea/proto/example/example.proto" />
-        <option value="$PROJECT_DIR$/IhomeWeb/models/models.go" />
-        <option value="$PROJECT_DIR$/GetArea/main.go" />
-        <option value="$PROJECT_DIR$/IhomeWeb/conf/app.conf" />
-        <option value="$PROJECT_DIR$/IhomeWeb/utils/config.go" />
-        <option value="$PROJECT_DIR$/IhomeWeb/conf/data.sql" />
-        <option value="$PROJECT_DIR$/GetImageCd/main.go" />
-        <option value="$PROJECT_DIR$/GetArea/subscriber/example.go" />
-        <option value="$PROJECT_DIR$/GetImageCd/proto/example/example.proto" />
-        <option value="$PROJECT_DIR$/GetArea/handler/example.go" />
-        <option value="$PROJECT_DIR$/GetImageCd/handler/example.go" />
-        <option value="$PROJECT_DIR$/IhomeWeb/main.go" />
-        <option value="$PROJECT_DIR$/GetSmsCd/proto/example/example.proto" />
-        <option value="$PROJECT_DIR$/GetSmsCd/sms/main.go" />
-        <option value="$PROJECT_DIR$/IhomeWeb/handler/handler.go" />
-        <option value="$PROJECT_DIR$/GetSmsCd/main.go" />
-        <option value="$PROJECT_DIR$/GetSmsCd/sms/yuntongxun.go" />
+        <option value="$PROJECT_DIR$/PutUserInfo/main.go" />
+        <option value="$PROJECT_DIR$/PutUserInfo/handler/example.go" />
+        <option value="$PROJECT_DIR$/PostUserAuth/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/PostUserAuth/main.go" />
+        <option value="$PROJECT_DIR$/PostUserAuth/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetUserHouse/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/GetUserAuth/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/GetUserAuth/main.go" />
+        <option value="$PROJECT_DIR$/GetUserAuth/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetUserHouse/main.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/html/js/ihome/myhouse.js" />
+        <option value="$PROJECT_DIR$/DelSession/handler/example.go" />
+        <option value="$PROJECT_DIR$/PostHouse/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/PostHouse/main.go" />
+        <option value="$PROJECT_DIR$/PostHouse/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetUserHouse/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetHouseInfo/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/GetHouseInfo/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetHouseInfo/main.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/html/myhouse.html" />
+        <option value="$PROJECT_DIR$/PostHousesImage/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/PostHousesImage/handler/example.go" />
+        <option value="$PROJECT_DIR$/PostHousesImage/main.go" />
+        <option value="$PROJECT_DIR$/GetIndex/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/GetIndex/main.go" />
+        <option value="$PROJECT_DIR$/GetIndex/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetHouses/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/GetHouses/handler/example.go" />
+        <option value="$PROJECT_DIR$/GetHouses/main.go" />
+        <option value="$PROJECT_DIR$/PostOrders/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/PostOrders/main.go" />
+        <option value="$PROJECT_DIR$/GetUserOrder/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/GetUserOrder/main.go" />
+        <option value="$PROJECT_DIR$/GetUserOrder/handler/example.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/html/css/ihome/detail.css" />
+        <option value="$PROJECT_DIR$/IhomeWeb/html/detail.html" />
         <option value="$PROJECT_DIR$/IhomeWeb/utils/error.go" />
+        <option value="$PROJECT_DIR$/GetSmsCd/sms/yuntongxun.go" />
         <option value="$PROJECT_DIR$/GetSmsCd/handler/example.go" />
+        <option value="$PROJECT_DIR$/PostOrders/handler/example.go" />
+        <option value="$PROJECT_DIR$/PutOrders/main.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/html/lorders.html" />
+        <option value="$PROJECT_DIR$/PutOrders/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/PutOrders/handler/example.go" />
+        <option value="$PROJECT_DIR$/PutComment/proto/example/example.proto" />
+        <option value="$PROJECT_DIR$/IhomeWeb/main.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/handler/handler.go" />
+        <option value="$PROJECT_DIR$/PutComment/main.go" />
+        <option value="$PROJECT_DIR$/PutComment/handler/example.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/models/models.go" />
+        <option value="$PROJECT_DIR$/IhomeWeb/utils/config.go" />
       </list>
     </option>
   </component>
@@ -218,11 +279,15 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,35 +295,10 @@
               <item name="sss" type="b2602c69:ProjectViewProjectNode" />
               <item name="sss" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sss" type="462c0819:PsiDirectoryNode" />
-              <item name="GetSmsCd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sss" type="462c0819:PsiDirectoryNode" />
-              <item name="GetSmsCd" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sss" type="462c0819:PsiDirectoryNode" />
-              <item name="GetSmsCd" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sss" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sss" type="462c0819:PsiDirectoryNode" />
-              <item name="GetSmsCd" type="462c0819:PsiDirectoryNode" />
-              <item name="sms" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,13 +312,15 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\go_workspace\src\sss\PutUserInfo" />
+      <recent name="D:\code\go_workspace\src\sss\PutOrders" />
+      <recent name="D:\code\go_workspace\src\sss\PutComment" />
+      <recent name="D:\code\go_workspace\src\sss\PostUserAuth" />
+      <recent name="D:\code\go_workspace\src\sss\PostRet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\go_workspace\src\sss\IhomeWeb\conf" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\go_workspace\src\sss\GetSmsCd\sms" />
-      <recent name="D:\code\go_workspace\src\sss\GetImageCd" />
-      <recent name="D:\code\go_workspace\src\sss\IhomeWeb\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,22 +363,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.34013605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3407155" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32879046" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32879046" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32993197" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32879046" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -345,19 +386,19 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.34013605" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3407155" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32993197" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="File Transfer" order="4" weight="0.32879046" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Message" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32993197" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32879046" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.32993197" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32879046" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -372,286 +413,172 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/plugin.go">
+    <entry file="file://$PROJECT_DIR$/IhomeWeb/conf/app.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/logs/logger_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/logs/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="112" column="57" lean-forward="true" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/logs/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5235" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/logs/logger.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/html/css/ihome/my.css">
+    <entry file="file://$PROJECT_DIR$/DelSession/app.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/plugin.go">
+    <entry file="file://$PROJECT_DIR$/GetArea/app.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/micro/go-log/log.go">
+    <entry file="file://$PROJECT_DIR$/GetHouseInfo/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetHouses/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetHouses/client.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetIndex/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetImageCd/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetSession/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetSmsCd/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserAuth/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserHouse/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserInfo/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserOrder/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostAvatar/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostHouse/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostHousesImage/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostLogin/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostOrders/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostRet/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostUserAuth/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PutComment/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PutOrders/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PutUserInfo/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IhomeWeb/handler/handler.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="128">
+          <caret line="1213" column="1" lean-forward="true" selection-start-line="1213" selection-start-column="1" selection-end-line="1213" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/proto/example/example.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="37" column="86" lean-forward="true" selection-start-line="37" selection-start-column="75" selection-end-line="37" selection-end-column="86" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/PostAvatar/handler/example.go">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/utils/misc.go">
+    <entry file="file://$PROJECT_DIR$/DelSession/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetArea/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetHouseInfo/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetHouses/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetImageCd/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetIndex/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetSession/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetSmsCd/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserAuth/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserHouse/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserInfo/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GetUserOrder/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostAvatar/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostHouse/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostHousesImage/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostLogin/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostOrders/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostRet/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostUserAuth/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PutComment/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PutOrders/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PutUserInfo/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IhomeWeb/utils/config.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="203">
+          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/IhomeWeb/models/models.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/utils/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
-          <folding>
-            <element signature="e#15#87#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="15" column="9" selection-start-line="15" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/conf/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetImageCd/proto/example/example.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetImageCd/proto/example/example.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/proto/example/example.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/subscriber/example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="e#20#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/proto/example/example.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetImageCd/proto/example/example.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetImageCd/subscriber/example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#20#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetImageCd/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetArea/handler/example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/html/js/ihome/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/html/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="37" column="83" lean-forward="true" selection-start-line="37" selection-start-column="83" selection-end-line="37" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetImageCd/handler/example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/astaxie/beego/cache/cache.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="50" column="31" lean-forward="true" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/garyburd/redigo/redis/reply.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#14#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetSmsCd/proto/example/example.micro.go">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+          <caret line="205" column="60" selection-start-line="205" selection-start-column="47" selection-end-line="205" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GetSmsCd/proto/example/example.pb.go">
+    <entry file="file://$PROJECT_DIR$/IhomeWeb/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetSmsCd/proto/example/example.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetSmsCd/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#14#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/handler/handler.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="205" column="19" lean-forward="true" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
-          <folding>
-            <element signature="e#17#382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetSmsCd/sms/yuntongxun.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2930">
-          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IhomeWeb/utils/error.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetSmsCd/handler/example.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="29" />
-          <folding>
-            <element signature="e#17#105#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>

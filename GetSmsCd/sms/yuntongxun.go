@@ -91,7 +91,6 @@ func NewMSG(accountSid string,authToken string,appId string, templateId string) 
 func (this *RLYMSG)genSigAndAuth() (sig string, auth string) {
 	// 计算时间戳   20140416142030 ,按照自己的需求格式化
 	curTime:=time.Now().Format("20060102150405")
-	fmt.Println(curTime)
 	// 生成签名参数
 	sigstr:=this.accountSid+this.authToken+curTime  // 要加密的字符串
 	// md5 加密
@@ -189,9 +188,10 @@ func (this *RLYMSG)SendMsg(data []string, mobile ...string) (rspcode string, err
 
 	// 创建http请求
 	// 参数1 指定请求方式  参数2： 要访问的url 参数3： 请求体内容，要求对象实现了io.Reader 接口
+
 	req,err:=http.NewRequest("POST",reqUrl,&body)
 	if err!=nil{
-		return "11111",err
+		return "22222",err
 	}
 
 	// 为Request，添加请求头  // 初始化的时候没有添加请求头的参数所以需要通过方法添加
@@ -208,9 +208,8 @@ func (this *RLYMSG)SendMsg(data []string, mobile ...string) (rspcode string, err
 	// 请求Request构造完成 ，发送http请求
 	response,err:=client.Do(req)   //do 方法传递不同的请求 则发送不同的请请求，返回Http Response 以及错误
 	if err!=nil{
-		return "11111",err
+		return "33333",err
 	}
-
 
 	// 接收应答，把body内容转化成byte数据便于数据解析
 	buf:=make([]byte,response.ContentLength)
@@ -221,7 +220,6 @@ func (this *RLYMSG)SendMsg(data []string, mobile ...string) (rspcode string, err
 
 	//json模块把body内容反序列化到 rspContent
 	json.Unmarshal(buf,&rspContent)
-	fmt.Println(rspContent)
 
 	// 获取响应码
 	rspcode = rspContent["statusCode"].(string) // 断言转化状态码

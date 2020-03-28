@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package go.micro.srv.GetUserOrder;
+
+service Example {
+	rpc GetUserOrder(Request) returns (Response) {}
+}
+
+message Message {
+	string say = 1;
+}
+
+message Request {
+	string role = 1;
+	string Sessionid = 2;
+}
+
+message Response {
+	string Errno = 1;
+	string Errmsg = 2;
+	bytes Orders = 3;
+}

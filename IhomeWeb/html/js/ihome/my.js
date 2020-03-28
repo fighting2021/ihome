@@ -15,6 +15,8 @@ function logout() {
         success: function (resp) {
             if ("0" == resp.errno) {
                 location.href = "/index.html";
+            } else {
+                alert(resp.errmsg);
             }
         }
     });

@@ -5,9 +5,6 @@ package go.micro.srv.GetArea;
 service Example {
 	// 获取地址信息服务
 	rpc GetArea(Request) returns (Response) {}
-
-	rpc Stream(StreamingRequest) returns (stream StreamingResponse) {}
-	rpc PingPong(stream Ping) returns (stream Pong) {}
 }
 
 message Message {
@@ -26,20 +23,4 @@ message Response {
 		string aname = 2; // 地区名称
 	}
 	repeated Address Data = 3; // 响应成功后返回的数据，格式：[{"aid":"aname"}, ..]
-}
-
-message StreamingRequest {
-	int64 count = 1;
-}
-
-message StreamingResponse {
-	int64 count = 1;
-}
-
-message Ping {
-	int64 stroke = 1;
-}
-
-message Pong {
-	int64 stroke = 1;
 }

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package go.micro.srv.PostHousesImage;
+
+service Example {
+	rpc PostHousesImage(Request) returns (Response) {}
+}
+
+message Message {
+	string say = 1;
+}
+
+message Request {
+	//sessionid
+	string Sessionid = 1;
+	//图片
+	bytes Image = 2;
+	//房屋 id
+	string Id = 3 ;
+	//图片信息
+	int64 Filesize = 4;
+	//图片名
+	string Filename =5 ;
+}
+
+message Response {
+	string Errno = 1;
+	string Errmsg = 2;
+	//返回url
+	string Url = 3;
+}
